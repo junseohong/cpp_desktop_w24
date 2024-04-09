@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Recipes</title>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="recipes.html" class="active">Recipes</a></li>
+        </ul>
+    </nav>
+    <main id="main">
+        <h1>Delicious Recipes</h1>
+        <div class="recipes-grid-container">
+            <div class="recipe-card">
+                <div class="recipe-card-inner">
+                    <div class="card-front">
+                        <h2>Double Chocolate Chips</h2>
+                        <img src="images/double_chocolate_chips.png" alt="Double Chocolate Chips">
+                        <p>Start by creaming together butter and sugars...</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Start by creaming together butter and sugars, then mix in eggs and vanilla. Blend in sifted flour, cocoa powder, baking soda, and salt. Fold in chocolate chips. Drop spoonfuls onto baking sheets and bake until set.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recipe-card">
+                <div class="recipe-card-inner">
+                    <div class="card-front">
+                        <h2>Double Chocolate Cookies</h2>
+                        <img src="images/double_chocolate_cookies.png" alt="Double Chocolate Cookies">
+                        <p>Combine melted dark chocolate with butter...</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Combine melted dark chocolate with butter, then stir in sugar, eggs, and vanilla. Mix in flour, cocoa powder, and baking powder. Add more chocolate chunks, scoop onto trays, and bake until they have a crackled surface.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recipe-card">
+                <div class="recipe-card-inner">
+                    <div class="card-front">
+                        <h2>Double Chocolate Brownies</h2>
+                        <img src="images/double_chocolate_brownies_jpg.jpeg" alt="Double Chocolate Brownies">
+                        <p>Melt dark chocolate and butter together...</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Melt dark chocolate and butter together. Whisk in sugar, eggs, and vanilla extract. Fold in flour and cocoa powder for a dense batter. Stir in chocolate chunks, pour into a pan, and bake until fudgy.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recipe-card">
+                <div class="recipe-card-inner">
+                    <div class="card-front">
+                        <h2>Double Chocolate Ice Cream</h2>
+                        <img src="images/double_chocolate_ice_cream.JPG" alt="Double Chocolate Ice Cream">
+                        <p>Melt dark chocolate into cream, stir in sugar...</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Melt dark chocolate into cream, stir in sugar and vanilla, then churn in an ice cream maker until smooth and freeze until firm for homemade double chocolate ice cream.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="showMessage()">Get Cooking Tip</button>
+    </main>
+    <script>
+        function showMessage() {
+            alert("Chocolate melts best at a low temperature. Melt it slowly to prevent scorching!");
+        }
+    </script>
+</body>
+</html>
